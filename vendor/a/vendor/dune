@@ -1,0 +1,7 @@
+(data_only_dirs *)
+
+(subdir b/src
+ (library
+  (name b)
+  (public_name a.b)
+  (modules b)))
